@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
   "dependencies": {
+    "@babel/preset-env": "^7.4.4",
     "zipkin": "^0.17.1",
     "zipkin-instrumentation-express": "^0.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "node-fetch": "^2.5.0"
   }
 }
