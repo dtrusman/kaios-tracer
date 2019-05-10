@@ -34,7 +34,7 @@ class KaiosTracer {
     }
 }
 
-module.exports = new KaiosTracer();
+module.exports.KaiosTracer = KaiosTracer;
 
 
 
