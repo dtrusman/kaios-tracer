@@ -9,7 +9,9 @@
   "dependencies": {
     "@babel/preset-env": "^7.4.4",
     "zipkin": "^0.17.1",
-    "zipkin-instrumentation-express": "^0.17.1"
+    "zipkin-context-cls": "^0.17.1",
+    "zipkin-instrumentation-express": "^0.17.1",
+    "zipkin-transport-http-custom": "https://github.com/dtrusman/zipkin-transport-http.git#0.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
