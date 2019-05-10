@@ -1,0 +1,10 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "zipkin": "^0.17.1",
+    "zipkin-instrumentation-express": "^0.17.1"
+  }
+}
